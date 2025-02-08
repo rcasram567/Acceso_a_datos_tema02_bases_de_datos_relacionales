@@ -87,17 +87,6 @@ public class Main {
             System.out.println(row);
             System.out.println(separator);
         }
-
-        //String separador = sepY + sepX.repeat(maxSize) + sepY;
-        //int cal = (separador.length() - result.getString(1).length() - 2) /2;
-        //double cald = ((double) separador.length() - (double) result.getString(1).length() - 2.0) /2.0%1.0;
-        //int ed, ei;
-        //if (cald == 0.5){
-        //    ed = cal;
-        //    ei = cal+1;
-        //} else {
-        //    ed = cal; ei = cal;
-        //}
     }
 
     public String getQuerySubjectsOfHour(String horaInicio, String codOe, String codCourse){
